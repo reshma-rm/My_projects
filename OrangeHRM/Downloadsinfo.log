@@ -1,0 +1,12 @@
+2020-04-104 14:30:27 [main] INFO  This is info message
+2020-04-104 14:30:27 [main] WARN  This is a warning
+2020-04-104 14:30:27 [main] ERROR This is an error
+2020-04-104 14:30:27 [main] FATAL This is fatal
+2020-04-104 14:30:37 [main] INFO  This is info message
+2020-04-104 14:30:37 [main] WARN  This is a warning
+2020-04-104 14:30:37 [main] ERROR This is an error
+2020-04-104 14:30:37 [main] FATAL This is fatal
+2020-04-104 14:31:39 INFO  This is info message
+2020-04-104 14:31:39 WARN  This is a warning
+2020-04-104 14:31:39 ERROR This is an error
+2020-04-104 14:31:39 FATAL This is fatal

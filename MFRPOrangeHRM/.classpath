@@ -5,5 +5,11 @@
 	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/jar_files (1)/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/apachePOI Jar files/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/apachePOI Jar files/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/apachePOI Jar files/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/apachePOI Jar files/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/apachePOI Jar files/poi-ooxml-schemas-3.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/R.Hamada/Downloads/apachePOI Jar files/xmlbeans-2.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -10,15 +10,18 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import pom.LoginPOM;
 
 public class Login {
+	
+	
 	static Logger logger=Logger.getLogger(Login.class);
 	@Test
 	public void login() throws IOException {
-		
 		WebDriver driver=null;
 		FileInputStream stream=new FileInputStream("config.properties");
 		Properties properties=new Properties();
@@ -33,7 +36,7 @@ public class Login {
 		
 		System.setProperty("webdriver.chrome.driver", Location);
 		driver=new ChromeDriver();
-		
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		
 		driver.navigate().to(MainURL);
@@ -51,15 +54,7 @@ public class Login {
 			logger.error("Logo is broken");
 			else
 				logger.info("Logo is not broken");
-		
-		
-		
-		
+	
 		driver.close();
-		
-		
-		
-		
 	}
-
 }
